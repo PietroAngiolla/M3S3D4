@@ -9,7 +9,20 @@ body{
 }
 
 .card{
-    margin: 0 auto;
+    margin: 8% auto;
+}
+
+.card-body{
+    height: 300px;
+}
+
+.card-text{
+    padding: 0;
+    font-size: 0.7em;
+}
+
+.card img{
+    height: 200px;
 }
 
 .flex-btns{
@@ -24,4 +37,10 @@ body{
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+
+.card:hover{
+    transform: scale(1.2) translate(5%);
+    transition-duration: 0.7s;
+    box-shadow: 5px 5px 10px;
 }
